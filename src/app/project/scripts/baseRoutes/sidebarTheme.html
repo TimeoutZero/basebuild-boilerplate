@@ -1,0 +1,21 @@
+<!-- Wrapper-->
+<div id="app-wrapper">
+
+    <!-- Navigation -->
+    <div ui-view="sidenav"></div>
+
+    <!-- Page wraper -->
+    <!-- ng-class with current state name give you the ability to extended customization your view -->
+    <div id="page-wrapper" class="gray-bg {{$state.current.name}}">
+
+        <!-- Topnav -->
+        <div ui-view="topnav"></div>
+
+        <!-- Main view  -->
+        <div ui-view="main" class="main-ui-content-view"></div>
+
+    </div>
+    <!-- End page wrapper-->
+
+</div>
+<!-- End wrapper-->

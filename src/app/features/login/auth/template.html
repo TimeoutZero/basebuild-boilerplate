@@ -1,0 +1,33 @@
+<div id="login-auth-screen">
+  <h1 class="logo-name animated slideInDown">
+    <div class="colored-bbb-logo"></div>
+  </h1>
+
+  <div class="middle-box text-center no-padding loginscreen animated fadeIn">
+    <div>
+      <form class="m-t"
+        role="form"
+        name="loginForm"
+        novalidate
+        ng-submit="loginForm.$valid && login.actions.login()">
+        <div class="form-group">
+          <input type="email"
+            ng-model="login.user.email"
+            class="form-control"
+            placeholder="E-mail"
+            required>
+        </div>
+        <div class="form-group">
+          <input type="password"
+            ng-model="login.user.password"
+            class="form-control"
+            placeholder="Password"
+            required>
+        </div>
+        <button type="submit" class="btn btn-success ladda-button block full-width m-b"
+          ladda="login.options.isSubmiting"
+          data-style="zoom-out">Login</button>
+      </form>
+    </div>
+  </div>
+</div>

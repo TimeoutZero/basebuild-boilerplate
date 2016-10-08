@@ -1,0 +1,74 @@
+$defaultMargin: 10px;
+$defaultPadding: 10px;
+
+.no-margin {
+  margin : 0 0 0 0 !important
+}
+
+.margin {
+  margin: $defaultMargin;
+}
+
+.margin-top {
+  margin-top: $defaultMargin;
+}
+
+.margin-right {
+  margin-right: $defaultMargin;
+}
+
+.margin-left {
+  margin-left: $defaultMargin;
+}
+
+
+.padding {
+  padding: $defaultPadding;
+}
+.padding-2 {
+  padding: $defaultPadding * 2
+}
+
+.padding-top {
+  margin-top: $defaultMargin;
+}
+
+.no-padding {
+  padding: 0 0 0 0 !important
+}
+
+.no-padding-left {
+  padding-left: 0 !important
+}
+
+.no-padding-right {
+  padding-right: 0 !important
+}
+
+.no-padding-top {
+  padding-top: 0 !important
+}
+
+.no-padding-bottom {
+  padding-top: 0 !important
+}
+
+.full-width {
+  width: 100% !important
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.line-height-2 {
+  line-height: 2;
+}
+
+.line-height-3 {
+  line-height: 3;
+}
+
+.margin-right-10 {
+  margin-right: 10px !important
+}

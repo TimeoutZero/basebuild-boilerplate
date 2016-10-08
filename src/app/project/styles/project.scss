@@ -1,0 +1,44 @@
+
+@import 'project/styles/utils/_projectVariables';
+@import 'project/styles/utils/align';
+@import 'project/styles/general';
+
+.main-screen, .full-height {
+  height: 100%;
+}
+
+// #app-wrapper{
+//   min-height: 100px;
+
+// }
+
+
+#page-wrapper {
+  height: 100%;
+  min-height: initial;
+  overflow-y: auto;
+
+  @media (min-width: 768px) {
+    min-height: initial;
+  }
+
+  @media (min-width: 768px) {
+    min-height: initial;
+  }
+}
+
+#app-wrapper {
+  min-width: $gtMinWidthScreenSupport;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.main-ui-content-view {
+  height: calc(100% - #{$topnavbarWrapperHeight});
+
+  .full-main-ui-height {
+    height: calc(100% - #{$topnavbarWrapperHeight});
+  }
+}
+
